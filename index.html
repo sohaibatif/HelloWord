@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tital </title>
+</head>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+<script>
+    var name= prompt("Enter the name");
+    
+    var length= name.length
+    var name2="";
+for(var i=0; i<length; i++){
+
+    if(i==0){
+        name2+=name[i];
+    }
+    else{
+        if(!(name[i-1]===name[i])){
+
+            name2+=name[i];
+        }
+
+    }
+
+}
+alert("Result = " + name2);
+
+  </script>
+
+</body>
+</html>
